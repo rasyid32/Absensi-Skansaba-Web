@@ -4,7 +4,7 @@
 @section('content')
     @include('components.breadcrumb')
 
-    <h2 class="text-center mt-3">Ubah Data Siswa</h2>
+    <h2 class="text-center mt-3">Ubah DATA Siswa</h2>
 
     <form action="/admin/students/{{ $student->nisn }}" method="POST" enctype="multipart/form-data">
         @method('put')
